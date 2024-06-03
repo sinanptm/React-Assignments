@@ -33,7 +33,7 @@
 
 
 /* Counter */
-.App{
+/* .App{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,22 +45,22 @@
     margin: 40px;
     font-weight: 800;
     font-size: larger;
-}
+} */
 
 
 
 /* Form */
 
 /* App.css */
-.App {
+/* .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(240, 241, 241);
-  height: 100vh; /* Full viewport height */
-  justify-content: center; /* Center the content vertically */
-}
-
+  height: 100vh; 
+  justify-content: center; 
+} */
+/* 
 form {
   display: flex;
   flex-direction: column;
@@ -92,4 +92,61 @@ button:hover {
 }
 .Input{
   width: 250px;
+} */
+
+
+
+
+
+/* Color */
+/* .App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.color {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  border-radius: 4px;
+} */
+
+
+
+/* Api Counter */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  height: 100vh;
+  justify-content: center;
+}
+
+.button {
+  margin: 0 10px;
+}
+
+.ProfileCard {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
 }

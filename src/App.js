@@ -1,13 +1,15 @@
 // App.js
 import React from 'react';
 import './App.css';
-import NameForm from './components/Form';
+import Counter from './components/apiCounter';
+import { Container } from 'react-bootstrap';
+
 
 function App() {
   return (
-    <div className="App">
-      <NameForm />
-    </div>
+    <Container>
+      <Counter/>
+    </Container>
   );
 }
 
