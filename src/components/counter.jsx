@@ -15,6 +15,7 @@ const Counter = () => {
       <span>
         <button className="button" onClick={add}>+</button>
         <button className="button" onClick={inc}>-</button>
+        <FaTrashAlt role="button" tabIndex='0'/>
       </span>
     </div>
   );

@@ -1,13 +1,12 @@
 // App.js
+import React from 'react';
 import './App.css';
-import Counter from './components/counter';
-import Footer from './components/footer';
+import NameForm from './components/Form';
 
 function App() {
   return (
-    <div className='App'>
-      <Counter />
-      <Footer />
+    <div className="App">
+      <NameForm />
     </div>
   );
 }
