@@ -281,11 +281,24 @@ input {
   align-items: center;
 }
 
-/* Todo text styles */
+/* Todo text input styles */
 .todo-text {
   flex: 1;
-  padding-right: 0.5rem;
-  font-size: 1.1rem;
+  padding: 0.5rem; /* Adjust padding as needed */
+  font-size: 1rem; /* Adjust font size as needed */
+  border: none;
+  background: transparent;
+  outline: none;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.todo-text:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.todo-text:focus {
+  background-color: #f9f9f9; /* Change background color on focus */
+  border: 1px solid #6366f1; /* Add border on focus */
 }
 
 /* Button container styles */
