@@ -26,6 +26,7 @@ const Body = () => {
     );
   };
 
+
   const deleteTodo = (id) => {
     const list = todos.filter((el) => el.id !== id);
     setTodos(list);
