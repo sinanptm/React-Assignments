@@ -257,6 +257,7 @@ input {
 .todo-item {
   background: white;
   border-radius: 15px;
+  font-size: larger;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -285,7 +286,7 @@ input {
 .todo-text {
   flex: 1;
   padding: 0.5rem; /* Adjust padding as needed */
-  font-size: 1rem; /* Adjust font size as needed */
+  font-size: 18px; /* Adjust font size as needed */
   border: none;
   background: transparent;
   outline: none;

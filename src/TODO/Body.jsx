@@ -83,30 +83,18 @@ const Body = () => {
                   <FaEdit />
                 </button>
               </div>
-              <input
-                type="text"
-                className="todo-text"
-                value={
-                  editingTodoId === todo.id
-                    ? editedTodoText[todo.id]
-                    : todo.text
-                }
+              <input type="text" className="todo-text"
+                value={ editingTodoId === todo.id  ? editedTodoText[todo.id] : todo.text }
                 disabled={editingTodoId !== todo.id}
                 ref={(el) => (inputRefs.current[todo.id] = el)}
                 onChange={(e) => handleEditChange(e, todo.id)}
                 onBlur={() => handleEditSubmit(todo.id)}
               />
               <div className="buttons">
-                <button
-                  onClick={() => changeStatus(todo.id)}
-                  className="complete-btn"
-                >
+                <button onClick={() => changeStatus(todo.id)} className="complete-btn" >
                   <FaCheck />
                 </button>
-                <button
-                  onClick={() => deleteTodo(todo.id)}
-                  className="delete-btn"
-                >
+                <button onClick={() => deleteTodo(todo.id)}  className="delete-btn">
                   <FaTrash />
                 </button>
               </div>
